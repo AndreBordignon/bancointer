@@ -18,7 +18,6 @@ export const Container = styled.button<ButtonProps>`
   width: 100%;
   padding: 0.8rem 2.4rem;
   background: ${({ theme }) => theme.colors.background};
-  border: 2px solid ${({ theme }) => theme.colors.primary};
   border-radius: 6px;
   color: ${({ theme }) => theme.colors.secondary};
   ${({ variant }) => variant && variants[variant]};
