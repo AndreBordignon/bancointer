@@ -20,11 +20,13 @@ export const LeftNav = styled.div`
   display: flex;
   align-items: center;
   > svg {
+    cursor: pointer;
     max-width: 11.2rem;
     height: auto;
-    margin-right: ${({ theme }) => theme.spacing.large};
+    margin: 0 1.4rem 1rem 0rem;
   }
-  font-size: ${({ theme }) => theme.fontSizes.large};
+  color: ${({ theme }) => theme.colors.grey};
+  font-size: ${({ theme }) => theme.fontSizes.small};
   font-weight: 700;
 `;
 export const RightNav = styled.div`
