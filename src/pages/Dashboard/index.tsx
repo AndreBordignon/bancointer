@@ -7,6 +7,7 @@ const Dashboard: React.FC = () => {
   return (
     <>
       <Header />
+      <h2>Hello Inter</h2>
     </>
   );
 };

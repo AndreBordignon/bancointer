@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.header`
   width: 100%;
   display: flex;
-  height: 10.4rem;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: ${({ theme }) => theme.colors.background};
@@ -12,6 +12,7 @@ export const Container = styled.header`
 export const Wrapper = styled.div`
   max-width: 100rem;
   width: 100%;
+  height: 10.4rem;
   display: flex;
   justify-content: space-between;
 `;
