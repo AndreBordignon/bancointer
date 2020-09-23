@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           Internet Banking
         </LeftNav>
         <RightNav>
-          <Button variant="secondary">Simulador Renda Fixa</Button>
+          <Button>Simulador Renda Fixa</Button>
           <AccountDropDown user={user} />
         </RightNav>
       </Wrapper>
