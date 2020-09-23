@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Container, Wrapper, LeftNav, RightNav } from './styles';
-import Button from '../Button';
+import Button from '../../../components/Button';
 import AccountDropDown from './AccountDropDown';
-import { ReactComponent as BancoInter } from '../../assets/images/logo.svg';
+import { ReactComponent as BancoInter } from '../../../assets/images/logo.svg';
 import { User } from './Header';
 
 const Header: React.FC = () => {

@@ -3,13 +3,11 @@ import { ThemeProvider } from 'styled-components';
 
 import theme from './styles/themes/light';
 import GlobalStyles from './styles/global';
-import Header from './components/Header';
-import Gradient from './components/Header/Gradient';
+import Dashboard from './pages/Dashboard';
 
 const App: React.FC = () => (
   <ThemeProvider theme={theme}>
-    <Header />
-    <Gradient />
+    <Dashboard />
     <GlobalStyles />
   </ThemeProvider>
 );
