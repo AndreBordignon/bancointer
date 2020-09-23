@@ -4,7 +4,7 @@ import { ButtonProps } from '.';
 
 const variants = {
   secondary: css`
-    background-color: transparent;
+    background: transparent;
     border: 0.2rem solid ${({ theme }) => theme.colors.secondary};
   `,
   transparent: css`
@@ -20,6 +20,6 @@ export const Container = styled.button<ButtonProps>`
   background: ${({ theme }) => theme.colors.background};
   border: 2px solid ${({ theme }) => theme.colors.primary};
   border-radius: 6px;
-  color: ${({ theme }) => theme.colors.secondary}
-    ${({ variant }) => variant && variants[variant]};
+  color: ${({ theme }) => theme.colors.secondary};
+  ${({ variant }) => variant && variants[variant]};
 `;
